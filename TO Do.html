@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To DO List</title>
+
+	<link rel="stylesheet" href="style.css"
+	
+</head>
+
+
+<body>
+
+	
+	<div class="container">
+		<div class="row">
+			<div class="intro col-12">
+				<h1>Work To-Dos</h1>
+				<div>
+					<div class="border1"></div>
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="helpText col-12">
+				
+				<p id="first">Enter text into the box to add errands, chores, reminders, etc. to your list.</p>
+				<p id="second">Click the item to mark it as complete. The item will change colors to show completion.</p>
+				<p id="third">Click the "X" to delete the item from your list.</p>
+				<p id="fourth">Click on the item text to edit!!!</p>
+			</div>
+			<div class="border1"></div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				
+				<input id="userInput" type="text" placeholder="New item..." maxlength="80">
+				<button id="enter"><i class="fas fa-pencil-alt"></i></button>
+			</div>
+		</div>
+		
+		<!-- Empty List -->
+		<div class="row">
+			<div id="edit" contenteditable="true">
+			<div class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+				</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
